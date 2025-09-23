@@ -1,5 +1,5 @@
 import unittest
-from src.backend.components.calculator.calculator import Calculator
+from ..calculator import Calculator
 
 def test_add():
     assert Calculator().add(2, 3) == 5

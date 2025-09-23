@@ -1,5 +1,5 @@
 from flask import Blueprint, jsonify, request
-from src.backend.components.calculator.calculator import Calculator
+from backend.components.calculator.calculator import Calculator
 
 bp = Blueprint("calculator", __name__, url_prefix="/calc")
 _calc = Calculator()
