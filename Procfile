@@ -1,1 +1,1 @@
-web: gunicorn src.backend.wsgi:app
+web: gunicorn --chdir src backend.wsgi:app
